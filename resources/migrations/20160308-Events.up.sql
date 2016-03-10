@@ -1,0 +1,1 @@
+CREATE TABLE Events (EventId varchar(255), Title text, Year smallint, Month tinyint, Day tinyint, PRIMARY KEY (EventId));
