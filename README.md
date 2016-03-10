@@ -2,7 +2,7 @@
 
 simple calendar app for a talk on building microservices with Clojure
 
-## Start the [contacts app](https://gitlab.innoq.com/innoq/contacts) 
+## Start the [simple-contacts app](https://github.com/innoq/simple-contacts) 
 
 This will then be available at some URL (for instance http://localhost:3000)
 
