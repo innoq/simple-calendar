@@ -1,6 +1,6 @@
 (defproject simple-calendar "0.1.0-SNAPSHOT"
   :description "simple calendar app for a talk on building microservices with Clojure"
-  :url "https://gitlab.innoq.com/innoq/simple-calendar"
+  :url "https://github.com/innoq/simple-calendar/"
   :dependencies [[org.clojure/clojure "1.8.0"]
                    [compojure "1.4.0"]
                    [ring "1.4.0"]
