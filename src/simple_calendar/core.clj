@@ -74,7 +74,7 @@
                                    nil))]
     (update-contact! contact-url)))
 
-(def contacts-feed (env :contacts-feed))
+(def contacts-feed (or (env :contacts-feed) "http://localhost:3000/feed"))
 
 (def feed-config
   {:workers
