@@ -46,7 +46,7 @@ If the database url has been properly defined in the last step, the database can
 
 The app can then be started with:
 
-    lein ring server-headless 3002
+    lein run
 
 ### Running the Application
 
