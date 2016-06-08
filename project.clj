@@ -24,6 +24,7 @@
                  [yesql "0.5.2"]]
   :min-lein-version "2.0.0"
   :profiles {:uberjar {:aot [simple-calendar.server]}}
+  :plugins  [[lein-environ "1.0.2"]]
   :main simple-calendar.server
   :uberjar-name "simple-calendar.jar"
   :aliases {"migrate" ["run" "-m" "db.migrate/migrate"]
